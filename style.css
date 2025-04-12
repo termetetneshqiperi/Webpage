@@ -1,0 +1,148 @@
+/* style.css - Stil Modern dhe Tërheqës */
+
+/* Pamja e përgjithshme */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f3f3;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Titujt dhe Logo - përdorim fontin Montserrat */
+h1, h2, h3, .navbar-brand {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    font-weight: 700;
+    color: white;
+}
+
+/* Custom Hero Section me sfond gradiente dhe tekst të pastër */
+.custom-hero {
+    background: linear-gradient(120deg, #ff6f61, #d73a49);
+    color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.custom-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.custom-hero .lead {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+/* Seksionet - linja poshtë e titujve për t’i theksuar */
+.section-title {
+    border-bottom: 3px solid #d73a49;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #d73a49;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Kartat me hije të lehta për efekt modern */
+.card {
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Tabelat: sjellim një sfond të pastër */
+.table {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.table thead th {
+    background-color: #d73a49;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+/* Imazhet me hije për theks vizual */
+img.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+img.shadow:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Lidhjet */
+a {
+    color: #d73a49;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #b32732;
+}
+
+/* Footer Custom */
+.custom-footer {
+    background: linear-gradient(45deg, #d73a49, #b32732);
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+.custom-footer p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+/* Seksioni i Përfundimeve i veçuar */
+.custom-footer-section {
+    background-color:black ;
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+/* Stilizime shtesë për lista */
+.list-group-item {
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.list-group-item:hover {
+    background-color: #d73a49;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Butonat */
+button {
+    background-color: #d73a49;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+    background-color: #b32732;
+    transform: scale(1.05);
+}
